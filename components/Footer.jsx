@@ -15,7 +15,7 @@ const Footer = () => {
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
             <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <GrDeliver className=" text-7xl ml-14" />
+                <GrDeliver className=" text-7xl ml-14 text-[#ab9574] bg-white p-2 rounded-full" />
               </figure>
               <div class=" flex flex-col">
                 <div>
