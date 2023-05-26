@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { GrDeliver } from "react-icons/gr";
 
 const Footer = () => {
   return (
@@ -14,20 +15,16 @@ const Footer = () => {
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
             <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <img
-                  src="//cdn.shopify.com/s/files/1/0029/7209/0486/files/features-1_100x69.png?v=1620102215"
-                  alt="Icon"
-                />{" "}
+                <GrDeliver className=" text-7xl ml-14" />
               </figure>
               <div class=" flex flex-col">
                 <div>
                   <h5 class="text-[#ab9574] font-serif text-2xl font-bolds ">
-                    Cut it as you need
+                    FREE SHIPPING
                   </h5>
                   <span class="text-xs text-[#ab9574] leading-none font-serif">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperia
+                    Get 10% cash back, free shipping, free returns, and more at
+                    1000+ retails!
                   </span>
                 </div>
               </div>
