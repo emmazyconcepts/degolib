@@ -11,10 +11,10 @@ export default function Home({ products, bannerData }) {
 
       <div class="container mx-auto py-9 md:py-12 px-4 md:px-6">
         <div class="flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
-          <div class="flex flex-col md:flex-row items-strech justify-between bg-gray-50 dark:bg-white py-6 px-6 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
+          <div class="flex flex-col md:flex-row items-strech justify-between bg-gray-50 dark:bg-white py-6 px-6 md:py-12 lg:pl-[4rem] md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
             <div class="flex flex-col justify-center md:w-1/2">
-              <h1 class="text-3xl lg:text-4xl font-semibold text-[#ab9574] ">
-                Best Deal
+              <h1 class="text-3xl lg:text-6xl font-semibold text-[#ab9574] ">
+                Best Deals
               </h1>
               <p class="text-base lg:text-xl text-[#ab9574]  mt-2">
                 Save upto <span class="font-bold">50%</span>
