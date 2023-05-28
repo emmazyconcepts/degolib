@@ -70,7 +70,7 @@ const Navbar = () => {
             </svg>
             <button
               type="button"
-              className="cart-icon mt-3"
+              className="cart-icon mt-6"
               onClick={() => setShowCart(true)}
             >
               <AiOutlineShopping />

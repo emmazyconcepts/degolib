@@ -14,9 +14,9 @@ const HeroBanner = ({ HeroBanner }) => {
       <div>
         <p className="beats-solo text-white ">Selected Products Only !</p>
         <h3 className=" text-[#ab9574]">Natural Human Hair Especially for</h3>
-        <h1>Black Women</h1>
+        <h1 className=" ml-[3px] sm:ml-0">Black Women</h1>
         {/* <Image
-          src={headimg}
+          src={headimg}s
           alt="battery"
           className="hero-banner-image h-full"
         /> */}
@@ -25,7 +25,7 @@ const HeroBanner = ({ HeroBanner }) => {
             <button className="">{HeroBanner.buttonText}</button>
           </Link>
           <div className="desc">
-            <p className="text-[#ab9574]">UPTO 20% OFF</p>
+            {/* <p className="text-[#ab9574]">UPTO 20% OFF</p> */}
           </div>
         </div>
       </div>
