@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineShopping } from "react-icons/ai";
 import { Cart } from "./";
@@ -9,7 +9,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import Image from "next/image";
 
-import logo from "../public/l2.jpg";
+import logo from "../public/lolo2.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -18,132 +18,111 @@ function classNames(...classes) {
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
 
+  const button =
+    typeof window !== "undefined"
+      ? document.querySelector("#menu-button")
+      : "null";
+
+  const menu =
+    typeof window !== "undefined" ? document.querySelector("#menu") : "null";
+
+  function show() {
+    menu.classList.toggle("hidden");
+  }
+
   return (
-    <div className="navbar-container">
-      <p className="logo">
-        <Link href="/">
-          <Image src={logo} alt="battery" className=" w-[5.5rem]" />
-        </Link>
-      </p>
-
-      <div></div>
-
-      {/* <select className="logo" name="" id="">
-        {" "}
-        <option>Shop by department</option>
-        <option>
-          {" "}
-          <a href="/policy">12v batteries</a>
-        </option>
-        <option>24v batteries</option>
-        <option>48v batteries</option>
-        <option>512v batteries</option>
-        <option>380v batteries</option>
-        <option>409v batteries</option>
-        <option>6v batteries</option>
-      </select> */}
-
-      <a href={"/battery/"} className="logo text-[#ab9574]">
-        Wigs
-      </a>
-
-      <a href={"/battery/"} className="logo text-[#ab9574]">
-        New Products
-      </a>
-      <a href={"/battery/"} className="logo text-[#ab9574]">
-        Haircare{" "}
-      </a>
-
-      {/* <Menu as="div" className="relative inline-block text-left">
-        <div>
-          <Menu.Button className=" inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-            Shop by department
-            <ChevronDownIcon
-              className="-mr-1 h-5 w-5 text-gray-400"
-              aria-hidden="true"
-            />
-          </Menu.Button>
-        </div>
-
-        <Transition
-          as={Fragment}
-          enter="transition ease-out duration-100"
-          enterFrom="transform opacity-0 scale-95"
-          enterTo="transform opacity-100 scale-100"
-          leave="transition ease-in duration-75"
-          leaveFrom="transform opacity-100 scale-100"
-          leaveTo="transform opacity-0 scale-95"
+    <div className=" ">
+      <header>
+        <nav
+          class="
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          py-4
+          md:py-0
+          px-4
+          text-lg text-gray-700
+          bg-[#262222]
+        "
         >
-          <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-            <div className="py-1">
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    href={"/battery/24volt"}
-                    className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-sm"
-                    )}
-                  >
-                    24v batteries{" "}
-                  </a>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    href={"/battery/48volt"}
-                    className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-sm"
-                    )}
-                  >
-                    48v batteries{" "}
-                  </a>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    href={"/battery/512volt"}
-                    className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-sm"
-                    )}
-                  >
-                    512v batteries{" "}
-                  </a>
-                )}
-              </Menu.Item>
-              <form method="POST" action="#">
-                <Menu.Item>
-                  {({ active }) => (
-                    <button
-                      type="submit"
-                      className={classNames(
-                        active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                        "block w-full px-4 py-2 text-left text-sm"
-                      )}
-                    >
-                      380v batteries{" "}
-                    </button>
-                  )}
-                </Menu.Item>
-              </form>
-            </div>
-          </Menu.Items>
-        </Transition>
-      </Menu> */}
+          <div>
+            <Link href="/">
+              <Image src={logo} alt="battery" className=" w-[4.5rem]" />
+            </Link>{" "}
+          </div>
 
-      <button
-        type="button"
-        className="cart-icon"
-        onClick={() => setShowCart(true)}
-      >
-        <AiOutlineShopping />
-        <span className="cart-item-qty">{totalQuantities}</span>
-      </button>
-      {showCart && <Cart />}
+          <div class="h-6 w-6 cursor-pointer md:hidden block">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="menu-button"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              onClick={() => show()}
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <button
+              type="button"
+              className="cart-icon mt-3"
+              onClick={() => setShowCart(true)}
+            >
+              <AiOutlineShopping />
+              <span className="cart-item-qty top-3">{totalQuantities}</span>
+            </button>
+          </div>
+
+          <div
+            class="hidden w-full md:flex md:items-center md:w-auto"
+            id="menu"
+          >
+            <ul
+              class="
+              pt-4
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0"
+            >
+              <li>
+                <a class="md:p-4 py-2 block text-[#ab9574]" href="#">
+                  Wigs
+                </a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-[#ab9574]" href="#">
+                  New Products
+                </a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-[#ab9574]" href="#">
+                  Haircare
+                </a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-[#ab9574]" href="#"></a>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  className="cart-icon mt-3"
+                  onClick={() => setShowCart(true)}
+                >
+                  <AiOutlineShopping />
+                  <span className="cart-item-qty top-3">{totalQuantities}</span>
+                </button>
+                {showCart && <Cart />}
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     </div>
   );
 };

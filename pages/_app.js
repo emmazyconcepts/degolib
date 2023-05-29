@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
   return (
     <StateContext>
       <Head>
-        <link rel="shortcut icon" href="/1678107511_litbatt24_logo_8.jpeg" />
+        <link rel="shortcut icon" href="/lolo2.png" />
       </Head>
       <Layout>
         <Toaster />
