@@ -171,7 +171,7 @@ span.text-red {
 .hero-banner-image {
   position: absolute;
   top: 0%;
-  right: 10%;
+  right: 0%;
   width: 30rem;
   height: 25rem;
   z-index: -2;

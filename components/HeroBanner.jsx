@@ -2,7 +2,7 @@ import { urlFor } from "@/lib/client";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
-import headimg from "../public/hair1.png";
+import headimg from "../public/hair4.png";
 import Image from "next/image";
 
 const HeroBanner = ({ HeroBanner }) => {
@@ -18,7 +18,7 @@ const HeroBanner = ({ HeroBanner }) => {
         <Image
           src={headimg}
           alt="battery"
-          className="hero-banner-image w-full h-full"
+          className="hero-banner-image h-full"
         />
 
         <div>
