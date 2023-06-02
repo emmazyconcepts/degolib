@@ -2,7 +2,7 @@ import { urlFor } from "@/lib/client";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
-import headimg from "../public/1678361828_products-background.jpeg";
+import headimg from "../public/hair1.png";
 import Image from "next/image";
 
 const HeroBanner = ({ HeroBanner }) => {
