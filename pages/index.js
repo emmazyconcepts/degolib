@@ -10,8 +10,8 @@ export default function Home({ products, bannerData }) {
 
       <div className="products-heading">
         {" "}
-        <h2>Best Selling Battery</h2>
-        <p>Battery of many variations</p>
+        <h2 className="text-[#ab9574] font-serif">New Arrivals</h2>
+        <p className="text-[#ab9574] font-serif">Just in store</p>
       </div>
 
       <div className="products-container">

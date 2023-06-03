@@ -21,7 +21,7 @@ const Footer = () => {
               </figure>
               <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-[#ab9574] text-2xl font-bold font-serif">
+                  <h5 class="text-[#ab9574] font-serif text-2xl font-bolds ">
                     Cut it as you need
                   </h5>
                   <span class="text-xs text-[#ab9574] leading-none font-serif">
@@ -105,10 +105,10 @@ const Footer = () => {
         <section class="text-gray-700">
           <div class="container px-5 py-24 mx-auto">
             <div class="text-center mb-20">
-              <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+              <h1 class="sm:text-3xl text-2xl font-medium text-center title-font mb-4 text-[#ab9574] font-serif">
                 Frequently Asked Question
               </h1>
-              <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#ab9574] font-serif">
                 The most common questions about how our business works and what
                 can do for you.
               </p>
