@@ -21,68 +21,79 @@ const Footer = () => {
               </figure>
               <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-[#ab9574] text-2xl font-bold leading-none">
+                  <h5 class="text-[#ab9574] text-2xl font-bold font-serif">
                     Cut it as you need
                   </h5>
-                  <span class="text-xs text-[#ab9574] leading-none">
-                    LitBatt24 provides Fast Delivery service. if you want your
-                    product faster, you can opt for next day delivery..
+                  <span class="text-xs text-[#ab9574] leading-none font-serif">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperia
                   </span>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
-            <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <img src="/cash.png" alt="" class="h-64 ml-auto mr-auto" />
+                <img
+                  src="//cdn.shopify.com/s/files/1/0029/7209/0486/files/features-1_100x69.png?v=1620102215"
+                  alt="Icon"
+                />{" "}
               </figure>
-              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
+              <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-white text-2xl font-bold leading-none">
-                    Cash On Delivery
+                  <h5 class="text-[#ab9574] text-2xl font-bold leading-none font-serif">
+                    Cut it as you need
                   </h5>
-                  <span class="text-xs text-white leading-none">
-                    Cash on Delivery is available as a payment method for all
-                    items that are Fulfilled by LitBatt24{" "}
+                  <span class="text-xs text-[#ab9574] leading-none font-serif">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperia
                   </span>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
-            <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <img src="/return.png" alt="" class="h-64 ml-auto mr-auto" />
+                <img
+                  src="//cdn.shopify.com/s/files/1/0029/7209/0486/files/features-1_100x69.png?v=1620102215"
+                  alt="Icon"
+                />{" "}
               </figure>
-              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
+              <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-white text-2xl font-bold leading-none">
-                    Easy Returns
+                  <h5 class="text-[#ab9574] text-2xl font-bold leading-none font-serif">
+                    Cut it as you need
                   </h5>
-                  <span class="text-xs text-white leading-none">
-                    You may request returns for most items you buy from
-                    LitBatt24, except those that are explicitly identified as
-                    not returnable.{" "}
+                  <span class="text-xs text-[#ab9574] leading-none font-serif">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperia
                   </span>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
-            <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
-              <figure class="mb-2">
-                <img src="/download.png" alt="" class="h-64 ml-auto mr-auto" />
+            <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+              <figure class="mb-2 ml-14">
+                <img
+                  src="//cdn.shopify.com/s/files/1/0029/7209/0486/files/features-1_100x69.png?v=1620102215"
+                  alt="Icon"
+                />{" "}
               </figure>
-              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
+              <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-white text-2xl font-bold leading-none">
-                    Best Service
+                  <h5 class="text-[#ab9574] text-2xl font-bold leading-none font-serif">
+                    Cut it as you need
                   </h5>
-                  <span class="text-xs text-white leading-none">
-                    We at Littbat24 we offer the best service and we also prides
-                    ourself for offering a comprehensive selection of quality
-                    LiFePO4 batteries to our customers.
+                  <span class="text-xs text-[#ab9574] leading-none font-serif">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperia
                   </span>
                 </div>
               </div>
