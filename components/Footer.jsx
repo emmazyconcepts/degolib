@@ -4,24 +4,27 @@ import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className=" mt-8">
-      <div class="flex items-center bg-[#808080] w-screen ">
+      <div class="flex items-center bg-[#262222] w-screen ">
         <div class="container ml-auto mr-auto flex flex-wrap items-start">
           <div class="w-full pl-5 lg:pl-2 mb-4 mt-4">
-            <h1 class="text-3xl lg:text-4xl text-white font-extrabold">
-              We Offer
+            <h1 class="text-3xl lg:text-4xl text-[#ab9574] font-extrabold">
+              Other Features
             </h1>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
-            <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <img src="/bike.png" alt="" class="h-64 ml-auto mr-auto" />
+                <img
+                  src="//cdn.shopify.com/s/files/1/0029/7209/0486/files/features-1_100x69.png?v=1620102215"
+                  alt="Icon"
+                />{" "}
               </figure>
-              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
+              <div class=" flex flex-col">
                 <div>
-                  <h5 class="text-white text-2xl font-bold leading-none">
-                    Fast Delivery
+                  <h5 class="text-[#ab9574] text-2xl font-bold leading-none">
+                    Cut it as you need
                   </h5>
-                  <span class="text-xs text-white leading-none">
+                  <span class="text-xs text-[#ab9574] leading-none">
                     LitBatt24 provides Fast Delivery service. if you want your
                     product faster, you can opt for next day delivery..
                   </span>
