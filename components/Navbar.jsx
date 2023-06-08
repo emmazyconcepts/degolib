@@ -43,15 +43,14 @@ const Navbar = () => {
         <option>6v batteries</option>
       </select> */}
 
-      <a href={"/battery/todaydeal"} className="logo">
+      <a href={"/battery/"} className="logo">
         Wigs
       </a>
 
-      <a href={"/battery/newproduct"} className="logo">
+      <a href={"/battery/"} className="logo">
         New Products
       </a>
-
-      <a href={"/battery/offers"} className="logo">
+      <a href={"/battery/"} className="logo">
         Haircare{" "}
       </a>
 
