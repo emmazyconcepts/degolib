@@ -44,7 +44,7 @@ const Navbar = () => {
       </select> */}
 
       <a href={"/battery/todaydeal"} className="logo">
-        Todays deal
+        Wigs
       </a>
 
       <a href={"/battery/newproduct"} className="logo">
@@ -52,7 +52,7 @@ const Navbar = () => {
       </a>
 
       <a href={"/battery/offers"} className="logo">
-        Offers{" "}
+        Haircare{" "}
       </a>
 
       <Menu as="div" className="relative inline-block text-left">
