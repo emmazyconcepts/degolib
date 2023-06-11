@@ -12,22 +12,20 @@ const HeroBanner = ({ HeroBanner }) => {
   return (
     <div className="hero-banner-container">
       <div>
-        <p className="beats-solo">{HeroBanner.smallText}</p>
-        <h3>{HeroBanner.midText}</h3>
-        <h1>{HeroBanner.largeText1}</h1>
-        <Image
+        <p className="beats-solo text-white ">Selected Products Only !</p>
+        <h3 className=" text-[#ab9574]">Natural Human Hair Especially for</h3>s
+        <h1>Black Women</h1>
+        {/* <Image
           src={headimg}
           alt="battery"
           className="hero-banner-image h-full"
-        />
-
+        /> */}
         <div>
           <Link href={`/product/${HeroBanner.product}`}>
-            <button>{HeroBanner.buttonText}</button>
+            <button className=" bg-blacks">{HeroBanner.buttonText}</button>
           </Link>
           <div className="desc">
-            <h5>Description</h5>
-            <p>{HeroBanner.desc}</p>
+            <p className="text-[#ab9574]">UPTO 20% OFF</p>
           </div>
         </div>
       </div>
