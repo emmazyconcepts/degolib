@@ -13,7 +13,7 @@ const HeroBanner = ({ HeroBanner }) => {
     <div className="hero-banner-container">
       <div>
         <p className="beats-solo text-white ">Selected Products Only !</p>
-        <h3 className=" text-[#ab9574]">Natural Human Hair Especially for</h3>s
+        <h3 className=" text-[#ab9574]">Natural Human Hair Especially for</h3>
         <h1>Black Women</h1>
         {/* <Image
           src={headimg}
@@ -22,7 +22,7 @@ const HeroBanner = ({ HeroBanner }) => {
         /> */}
         <div>
           <Link href={`/product/${HeroBanner.product}`}>
-            <button className=" bg-blacks">{HeroBanner.buttonText}</button>
+            <button className="">{HeroBanner.buttonText}</button>
           </Link>
           <div className="desc">
             <p className="text-[#ab9574]">UPTO 20% OFF</p>

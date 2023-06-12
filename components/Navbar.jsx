@@ -9,7 +9,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import Image from "next/image";
 
-import logo from "../public/1678107511_litbatt24_logo_8.jpeg";
+import logo from "../public/l2.jpg";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo">
         <Link href="/">
-          <Image src={logo} alt="battery" className=" w-[8.5rem]" />
+          <Image src={logo} alt="battery" className=" w-[5.5rem]" />
         </Link>
       </p>
 
